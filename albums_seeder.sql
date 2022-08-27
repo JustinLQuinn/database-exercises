@@ -1,11 +1,4 @@
-INSERT INTO albums (artist,album,release_date,sales_in_Millions,genre)
-VALUES ('Michael Jackson', 'Thriller', '1982', '50.2', 'Pop, post-disco, funk, rock');
-
-INSERT INTO albums (artist,album,release_date,sales_in_Millions,genre)
-VALUES ('AC/DC', 'Back in Black', '1980', '30', 'Hard rock');
-
-INSERT INTO albums (artist,album,release_date,sales_in_Millions,genre)
-VALUES ('Eagles', 'Their Greatest Hits (1971–1975)', '1976', '41', 'Country rock, soft rock, folk rock');
+TRUNCATE albums;
 
 INSERT INTO albums (artist,album,release_date,sales_in_Millions,genre)
 VALUES  ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, post-disco, funk, rock'),
@@ -38,6 +31,3 @@ VALUES  ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, post-disco, funk, rock
         ('Michael Jackson', 'Dangerous', 1991, 17.0, 'New jack swing, R&B and pop'),
         ('The Beatles', 'Abbey Road', 1969, 16.8, 'Rock');
 
--- UPDATE albums
--- SET album = 'Here again'
--- WHERE ???? = ???;
