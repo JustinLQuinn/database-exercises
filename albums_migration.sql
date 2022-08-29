@@ -1,3 +1,5 @@
+use justin;
+
 DROP TABLE IF EXISTS albums;
 CREATE TABLE IF NOT EXISTS albums (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT ,
@@ -8,4 +10,3 @@ CREATE TABLE IF NOT EXISTS albums (
     genre VARCHAR(50) NOT NULL,
     PRIMARY KEY (id)
 );
-

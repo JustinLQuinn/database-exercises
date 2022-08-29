@@ -1,3 +1,5 @@
+use justin;
+
 TRUNCATE albums;
 
 INSERT INTO albums (artist,album,release_date,sales_in_Millions,genre)

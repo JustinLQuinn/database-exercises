@@ -1,3 +1,5 @@
+use justin;
+
 SELECT 'I am output!' AS 'Info';
 
 SELECT * FROM quotes WHERE id = 5;
