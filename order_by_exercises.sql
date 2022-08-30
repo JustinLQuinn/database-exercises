@@ -12,8 +12,8 @@ use employees;
 # wild cards use (like)
 # SELECT * FROM employees WHERE last_name like 'E%'
 # order by emp_no;
-SELECT * FROM employees WHERE last_name like 'E%'
-order by emp_no desc;
+# SELECT * FROM employees WHERE last_name like 'E%'
+# order by emp_no desc;
 # SELECT * FROM employees WHERE last_name like '%q%';
 # SELECT * FROM employees WHERE last_name like 'E%' or '%e';
 # select e.* from employees AS e where (e.first_name = 'Irena'
