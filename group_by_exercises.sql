@@ -9,10 +9,10 @@ use employees;
 #                   GROUP BY last_name, first_name;
 
 #number 5, 6
-# SELECT COUNT(last_name) as Number_Shared, last_name FROM employees
-# where last_name like '%q%'
-#           and employees.last_name not like '%qu%'
-# GROUP BY last_name;
+SELECT COUNT(last_name) as Number_Shared, last_name FROM employees
+where last_name like '%q%'
+          and last_name not like '%qu%'
+GROUP BY last_name;
 
 #number 7
 select count(gender) as shared_number,gender
