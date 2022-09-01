@@ -9,5 +9,5 @@ use employees;
 # from employees limit 10;
 
 # 5
-select CONCAT(emp_no, ' - ', last_name, ', ' first_name) as full_name, birth_date as 'DOB'
+select CONCAT(emp_no, ' - ', last_name, ', ', first_name) as full_name, birth_date as 'DOB'
 from employees limit 10;
