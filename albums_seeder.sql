@@ -1,6 +1,6 @@
 use justin;
 
-TRUNCATE albums;
+# TRUNCATE albums;
 
 INSERT INTO albums (artist,album,release_date,sales_in_Millions,genre)
 VALUES  ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, post-disco, funk, rock'),

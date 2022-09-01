@@ -8,4 +8,4 @@ use employees;
 # select emp_no from salaries order by salary desc limit 4 offset 46;
 
 #try using a math equation for the offset
-select emp_no from salaries order by salary desc limit 4 offset 46;
+# select emp_no from salaries order by salary desc limit 4 offset 46;

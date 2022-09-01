@@ -8,5 +8,6 @@ CREATE TABLE IF NOT EXISTS albums (
     release_date YEAR (4) NOT NULL,
     sales_in_Millions DOUBLE(5,1) UNSIGNED NULL,
     genre VARCHAR(50) NOT NULL,
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    UNIQUE (album, artist)
 );
